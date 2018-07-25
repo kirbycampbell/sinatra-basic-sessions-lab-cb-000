@@ -9,6 +9,11 @@ class App < Sinatra::Base
 
   get '/' do
     @session = session
+    erb :index
+  end
+
+  post '/' do
+
   end
 
 end
